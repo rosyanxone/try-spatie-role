@@ -14,7 +14,19 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('Hi, ini halaman User!') }}
+
+                    {{-- @role('admin')
+                        <div>
+                            Hai, role Admin!
+                        </div>
+                    @endrole
+
+                    @can('product-list')
+                        <div>
+                            User punya permission List Product
+                        </div>
+                    @endcan --}}
                 </div>
             </div>
         </div>
